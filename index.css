@@ -156,17 +156,71 @@
     order: 1;
     flex-grow: 0;
 }
-.oot{
- 
+
+.oot {
+
     display: flex;
     justify-content: space-between;
 }
-.limonad{
+
+.limonad {
     background: #F2F8FF;
 
 }
-.rasm{
+
+.foj {
     padding-top: 50px;
-    border-left: 1px solid #000;
-    border-right: 1px solid #000;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 62px;
+    color: #161C24;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.rasm {
+    padding-top: 50px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.kik {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 34px;
+    color: #161C24;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.csa {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 330px 340px 40px 40px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.bg-1{
+    background-image: url(img/фото.png);
+}
+.bg-2{
+    background-image: url(img/фото\ \(1\).png);
+}
+.bg-3{
+    background-image: url(img/фото\ \(2\).png);
+}
+.bg-4{
+    background-image: url(img/фото\ \(3\).png);
+}
+.jj {
+    border: none;
+    padding: 5px 50px 5px 50px;
+    border: 2px solid #000;
 }
