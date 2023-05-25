@@ -13,7 +13,6 @@
 }
 
 .navbartext {
-    font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -23,7 +22,6 @@
 }
 
 .navbartext2 {
-    font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -34,7 +32,6 @@
 }
 
 .navbartxt {
-    font-family: 'SF Pro Text';
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -62,7 +59,6 @@
 }
 
 .telephone {
-    font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -170,7 +166,6 @@
 
 .foj {
     padding-top: 50px;
-    font-family: 'SF Pro Text';
     font-style: normal;
     font-weight: 600;
     font-size: 44px;
@@ -207,20 +202,187 @@
     box-shadow: 0px 0px 5px black;
 }
 
-.bg-1{
+.bg-1 {
     background-image: url(img/фото.png);
 }
-.bg-2{
+
+.bg-2 {
     background-image: url(img/фото\ \(1\).png);
 }
-.bg-3{
+
+.bg-3 {
     background-image: url(img/фото\ \(2\).png);
 }
-.bg-4{
+
+.bg-4 {
     background-image: url(img/фото\ \(3\).png);
 }
+
 .jj {
     border: none;
     padding: 5px 50px 5px 50px;
     border: 2px solid #000;
+}
+
+.salee {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #161C24;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 130px;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #000;
+    background-color: #FFFFFF;
+}
+
+.sale {
+    margin-top: 20px;
+}
+
+.ttxt {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #454F5B;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.cardypzuv {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    padding-left: 10px;
+}
+
+.bg-5 {
+    background-image: url(img/Rectangle\ 19.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 1px solid #000;
+}
+
+.bg-6 {
+    background-image: url(img/Rectangle\ 19\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #000;
+    padding-right: 20px;
+}
+
+.bg-7 {
+    background-image: url(img/Rectangle\ 19\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 1px solid #000;
+}
+
+.bg-8 {
+    background-image: url(img/Rectangle\ 19\ \(3\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 1px solid #000;
+}
+
+.card-ota {
+    box-shadow: 10px 0px 30px #000;
+}
+
+.cardsoz {
+    padding-bottom: 300px;
+}
+
+.texttt {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #454F5B;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    padding-top: 20px;
+}
+
+.narx {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #161C24;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.narx2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: line-through;
+    color: #454F5B;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    padding-left: 20px;
+}
+
+.cardpast {
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.hu {
+    padding-bottom: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #454F5B;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#ijj{
+    padding-bottom: 20px;
+}
+.input{
+    padding: 10px 20px 10px 20px ;
+    background: rgba(22, 28, 36, 0.04);
+    border: none;
+    margin-left: 10px;
+}
+.btn-primary{
+    padding: 5px 20px 5px 20px ;
+    margin-left: 20px;
+
+}
+.inputs-button{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -50px;
+    padding-bottom: 50px;
+}
+.section{
+    background: #F2F8FF;
+}
+.ok{
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
