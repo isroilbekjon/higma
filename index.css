@@ -9,7 +9,6 @@
     display: flex;
     justify-content: space-between;
     background-color: #454F5B;
-    width: 100%;
 
 }
 
@@ -62,7 +61,7 @@
 .telephone {
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 21px;
     color: #454F5B;
     padding-top: 10px;
@@ -406,6 +405,7 @@ footer {
 }
 
 
+
 .liko {
     font-style: normal;
     font-weight: 500;
@@ -417,11 +417,9 @@ footer {
     order: 0;
     flex-grow: 0;
 }
-
-.uj {
+.uj{
     text-align: start;
 }
-
 .isas {
     padding-top: 20px;
     font-style: normal;
@@ -432,13 +430,4 @@ footer {
     flex: none;
     order: 3;
     flex-grow: 0;
-}
-@media (max-width: 575px){
-    .nav {
-        display: flex;
-        justify-content: space-between;
-        background-color: #454F5B;
-        width: 100%;
-    
-    }
 }
