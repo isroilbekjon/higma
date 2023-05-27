@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     background-color: #454F5B;
+    width: 100%;
 
 }
 
@@ -359,30 +360,85 @@
     order: 1;
     flex-grow: 0;
 }
-#ijj{
+
+#ijj {
     padding-bottom: 20px;
 }
-.input{
-    padding: 10px 20px 10px 20px ;
+
+.input {
+    padding: 10px 20px 10px 20px;
     background: rgba(22, 28, 36, 0.04);
     border: none;
     margin-left: 10px;
 }
-.btn-primary{
-    padding: 5px 20px 5px 20px ;
+
+.btn-primary {
+    padding: 5px 20px 5px 20px;
     margin-left: 20px;
 
 }
-.inputs-button{
+
+.inputs-button {
     display: flex;
     justify-content: space-between;
     margin-left: -50px;
     padding-bottom: 50px;
 }
-.section{
+
+.section {
     background: #F2F8FF;
 }
-.ok{
+
+.ok {
     padding-bottom: 50px;
     padding-top: 50px;
+}
+
+footer {
+    background: #0D2436;
+    box-shadow: inset 0px 1px 0px #C4CDD5;
+    padding-top: 80px;
+}
+
+.image-footer2 {
+    padding-bottom: 80px;
+    padding-top: 140px;
+}
+
+
+.liko {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.uj {
+    text-align: start;
+}
+
+.isas {
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+@media (max-width: 575px){
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: #454F5B;
+        width: 100%;
+    
+    }
 }
